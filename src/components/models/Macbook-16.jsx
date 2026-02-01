@@ -22,11 +22,10 @@ export default function MacbookModel16(props) {
 
   texture.colorSpace = SRGBColorSpace;
   texture.needsUpdate = true;
-
   useEffect(() => {
     // Update all materials to use the selected color
     scene.traverse((child) => {
-      if (child.isMesh) {
+      if (child.isMesh && child.material) {
         // change
         if (!noChangeParts.includes(child.name)) {
           child.material.color = new Color(color);

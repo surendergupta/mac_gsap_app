@@ -5,6 +5,7 @@ import ProductViewer from "./components/ProductViewer";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Showcase from "./components/Showcase";
+import Footer from "./components/Footer";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <ProductViewer />
       <Showcase />
+      <Footer />
     </main>
   );
 };

@@ -1,3 +1,5 @@
+import { all } from "three/tsl";
+
 const navLinks = [
   { label: "Store" },
   { label: "Mac" },
@@ -27,13 +29,13 @@ const noChangeParts = [
 ];
 
 const performanceImages = [
-  { id: "p1", src: "/performance1.png" },
-  { id: "p2", src: "/performance2.png" },
-  { id: "p3", src: "/performance3.png" },
-  { id: "p4", src: "/performance4.png" },
-  { id: "p5", src: "/performance5.jpg" },
-  { id: "p6", src: "/performance6.png" },
-  { id: "p7", src: "/performance7.png" },
+  { id: "p1", src: "/performance1.png", alt: "Performance 1" },
+  { id: "p2", src: "/performance2.png", alt: "Performance 2"  },
+  { id: "p3", src: "/performance3.png", alt: "Performance 3" },
+  { id: "p4", src: "/performance4.png", alt: "Performance 4" },
+  { id: "p5", src: "/performance5.jpg", alt: "Performance 5" },
+  { id: "p6", src: "/performance6.png", alt: "Performance 6" },
+  { id: "p7", src: "/performance7.png", alt: "Performance 7" },
 ];
 
 const performanceImgPositions = [

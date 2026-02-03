@@ -1,11 +1,5 @@
 # Apple MacBook Pro M4 - High-Performance Web Experience Landing Page
 
-This documentation provides a comprehensive overview of the **MacBook GSAP App**, a high-performance React application leveraging **Three.js** for 3D rendering and **GSAP** for advanced scroll-driven animations.
-
----
-
-# MacBook Pro Marketing Site - Documentation
-
 ## 1. Overview
 
 The **mac_gsap_app** is a modern, immersive landing page built to showcase the MacBook Pro. It utilizes a "Scrollytelling" approach where the 3D model and UI elements respond dynamically to the user's scroll position.

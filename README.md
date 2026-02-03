@@ -150,7 +150,3 @@ npx gltfjsx public/models/macbook.glb -T
 > **Note**: Ensure all 3D assets (`.glb`) and video assets (`.mp4`) are placed in the `/public` folder as referenced in the components.
 
 ---
-
-**End of Documentation**
-
-Would you like me to generate a specific technical guide for the GSAP ScrollTrigger logic used in the `Features` component?
